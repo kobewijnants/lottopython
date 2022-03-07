@@ -80,17 +80,17 @@ def check():
     rood = 0
     wit = 0
 
-    if getrokkenticket[0] == winningticket[0]:
+    if getrokkenticket[0] in winningticket:
         rood += 1
-    if getrokkenticket[1] == winningticket[1]:
+    if getrokkenticket[1] in winningticket:
         rood += 1
-    if getrokkenticket[2] == winningticket[2]:
+    if getrokkenticket[2] in winningticket:
         rood += 1
-    if getrokkenticket[3] == winningticket[3]:
+    if getrokkenticket[3] in winningticket:
         rood += 1
-    if getrokkenticket[4] == winningticket[4]:
+    if getrokkenticket[4] in winningticket:
         rood += 1
-    if getrokkenticket[5] == winningticket[5]:
+    if getrokkenticket[5] in winningticket:
         wit += 1
 
     prijs0 = 0
